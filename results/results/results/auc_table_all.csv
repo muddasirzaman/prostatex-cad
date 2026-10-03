@@ -1,0 +1,6 @@
+Model,AUC,CI_low,CI_high
+ADC-only,0.740,0.674,0.805
+Logistic (12 feat),0.752,0.684,0.819
+Random forest (12 feat),0.765,0.703,0.825
+Small CNN,0.797,0.742,0.849
+ResNet-18 pretrained,0.716,0.658,0.774
