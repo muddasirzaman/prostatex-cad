@@ -1,0 +1,5 @@
+Model,AUC,CI_low,CI_high
+ADC-only (rule),0.799,0.723,0.861
+Logistic (12 feat),0.773,0.697,0.845
+Random forest (12 feat),0.787,0.709,0.854
+Small CNN (5-net average),0.869,0.811,0.921
