@@ -51,10 +51,10 @@ D:\prostate cance\
 
 ## Requirements
 
-- MATLAB **[TO DO: version]** with the Deep Learning Toolbox, the Statistics and Machine
-  Learning Toolbox and the Image Processing Toolbox
-- Python 3 with `torch`, `torchvision`, `scipy`, `scikit-learn` and `numpy`, for the pretrained
-  network only
+- MATLAB R2021a with the Deep Learning Toolbox, the Statistics and Machine Learning Toolbox
+  and the Image Processing Toolbox
+- Python 3.14 with `torch` 2.14, `torchvision` 0.29, `scipy`, `scikit-learn` and `numpy`,
+  for the pretrained network only
 
 No GPU is required. Every experiment in the paper was run on a CPU.
 
@@ -88,6 +88,15 @@ Approximate run times are for a laptop CPU.
 
 Step 16 is intended to be run once. Every model, preprocessing and threshold choice in this
 pipeline was fixed before it was run.
+
+## Results files
+
+The `results/` folder holds the three summary tables reported in the paper, so the numbers can
+be inspected without running the pipeline:
+
+- `auc_table_all.csv` — cross-validation AUC with bootstrap intervals for all models
+- `auc_table_context.csv` — the same with the 48 mm and 72 mm field-of-view variants
+- `auc_table_test.csv` — independent test cohort AUC with bootstrap intervals
 
 ## Notes on the dataset
 
