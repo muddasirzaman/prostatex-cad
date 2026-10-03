@@ -1,0 +1,33 @@
+# Never commit imaging data or derived patches
+dicom/
+study/
+patches*/
+*.dcm
+dataset_python.mat
+dataset_pytorch.mat
+
+# Trained models and large binaries
+*.pth
+final_models.mat
+series_index*.mat
+splits.mat
+*_oof*.mat
+test_scores.mat
+cam_results.mat
+
+# MATLAB clutter
+*.asv
+*.mat.bak
+slprj/
+*.autosave
+
+# Python clutter
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
